@@ -1,3 +1,10 @@
+
+/* 
+
+		NAVBAR 
+
+*/
+
 .navbar{    
     position: fixed;    
     top: 0;    
@@ -27,6 +34,11 @@ li a{
 
 li a:hover {
     background-color: #F5F5F5;
+    color:#FA4516;
+}
+
+li:nth-child(2) a:hover {
+   background-color: #FDFDFD;
 }
 
 li:nth-child(2){
@@ -37,10 +49,46 @@ li:last-child, li:first-child{
     border-right: none;
 }
 
+.active {
+    background-color: #FA4516;
+    color:white;
+}
+
 #logo{
 	width: auto;
 	height: 70px;
 }
+
+/* 
+
+		GENERAL 
+
+*/
+
+body{
+	margin:0px;
+	font-family: 'Mina', sans-serif;
+}
+
+p{
+	text-align: justify;
+    line-height: 1.8;
+
+}
+
+h2{
+	font-size: 50px;
+	color: #FA4516;
+	margin:0px;
+}
+
+
+
+/* 
+
+		PAGE HOME 
+
+*/
 
 
 .first-half{
@@ -59,8 +107,6 @@ li:last-child, li:first-child{
     border: 1px solid #bbb;
 }
 
-
-
 .main_containter{
 	margin-top:90px;
 }
@@ -71,19 +117,96 @@ li:last-child, li:first-child{
 }
 
 .highlighted_content{
-	max-width: 25%;
+	height:auto;
+	width:44%;
 	float:left;
+	margin:20px;
+
+}
+.highlighted_content img{
+	width:auto;
+	height: 200px;
+}
+
+
+.fig_title{
+	padding-top: 5px;
+	color:#FA4516;
+	font-size: 25px;
+	margin:0px;
+	font-weight: bold;
+}
+
+.highlighted_content figcaption {
+	padding:10px;
+	background-color: #F5F5F5; 
 }
 
 .news{
-	padding:20px;
+	padding:10px;
+	background-color:#F5F5F5;
+	margin: 10px;
 }
 
-.news h2{
-	font-size: 50px;
+.news img{
+	margin:10px;
 }
 
-body{
-	margin:0px;
+/* 
+
+		PAGE CLASSES
+
+*/
+
+
+
+.main_containter_classes{
+	margin: 90px 80px;
+	display:flex;
+	flex-direction: column;
+}
+
+.container_class{
+	height: auto;
+	width: auto;
+}
+
+.container_class p{
+	float:left;
+	width: 45%;
+	padding: 0px 40px;
+}
+
+.class_title{
+	display:block;
+	padding: 10px 10px 0px 0px;
+	color: #FA4516; 
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
 
 }
+
+.learn_more{
+	display:block;
+	padding: 10px 0px 0px 0px;
+	color: #c1c1c1; 
+	font-style: italic;
+	text-decoration: none;
+}
+
+.container_class img{
+	width: 55%;
+	float:left;
+}
+
+.class_odd{
+	background-color: #F1F1F1;
+}
+
+.line{
+	border-bottom: 1px solid #FA4516;
+	margin : 20px;
+}
+
+
