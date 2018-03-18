@@ -76,6 +76,12 @@ body{
   margin-top: -80px;
 }
 
+#aboutimg2 {
+  height: 200px;
+  width: 200px;
+  margin-top: -80px;
+}
+
 input[type="submit"] {
     background: #32CD32;
     border-color: green;
